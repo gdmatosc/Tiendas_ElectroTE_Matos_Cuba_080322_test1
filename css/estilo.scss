@@ -108,8 +108,9 @@ $verde_tono: (
     border-radius: 0%;
     padding:0;
     padding-top: 0.5rem;
-    h1 {
-        color:map-get($verde_tono,claro);
+    h2 {
+        /*color:map-get($verde_tono,claro);*/
+        color: rgb(120, 245, 120);
     }
     p {
         margin-bottom: 0;
@@ -132,9 +133,13 @@ $verde_tono: (
 }
 
 .card-body{
-    margin-bottom: 10px;
+    margin-bottom: 0;
     padding-bottom: 10px;
-    color: map-get($verde_tono,oscuro);
+    text-align: center;
+    /*align-items: center;*/
+    /*color: map-get($verde_tono,oscuro);*/
+    color:black;
+    background-color: rgb(229, 245, 229);
 }
 
 .card{
@@ -162,7 +167,7 @@ $verde_tono: (
 
 .card-img-top {
     width: 100%;
-    height: 15vw;
+    height: 20vw;
     object-fit: contain;
 }
 
@@ -171,7 +176,6 @@ $verde_tono: (
 .formulario{
     color:white;
     background-color: $color_dark_blue;
-    /*padding-top:5%;*/
     padding-bottom:2%;
     padding-left:20%;
     padding-right:20%;  
@@ -179,7 +183,8 @@ $verde_tono: (
 
 .titulos_pagina_contacto {
     text-align: center;
-    color: map-get($verde_tono,claro);
+    /*color: map-get($verde_tono,claro);*/
+    color: rgb(120, 245, 120);
 }
 
 .titulo_formulario{
@@ -200,6 +205,7 @@ $verde_tono: (
     align-items: center;
     align-content: center;
     background-color: $color_dark_blue;
+    padding: 20px;
 }
 
 /* Footer */
